@@ -61,6 +61,16 @@ main{
     grid-template-columns: 45% 40%;
     justify-content: space-between;
     padding: 15px;
+    font-size: 1.1em;
+}
+
+main p{
+    line-height: 1.3em;
+    padding: 5px;
+}
+
+main ul{
+    list-style: square;
 }
 
 main img{
