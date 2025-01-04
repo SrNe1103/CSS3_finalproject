@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(#00ff88, #15ff00);
+    min-height: 1024px;
+}
+
+header a{
+    position: absolute;
+    left: -1000px
+}
+
+header a:focus{
+    position: static;
+}
+
+header{
+    background: #00ff88;
+    border: #000 solid 1px;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
