@@ -41,13 +41,20 @@ nav ul{
 
 nav a{
     text-decoration: none;
-    background-color: rgb(43, 245, 43);
+    background-color: #2bf52b;
     color: #000000;
     border: #000000 solid 1px;
     border-radius: 5px;
     padding: 7px;
     text-decoration: none;
+    font-weight: 600;
     line-height: 70px;
+    transition: color 1s, background-color 1s;
+}
+
+nav a:hover, nav a:focus{
+    background-color: #0c8d00;
+    color: #ffffff;
 }
 
 h2{
