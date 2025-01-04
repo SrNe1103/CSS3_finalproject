@@ -1,6 +1,9 @@
 body{
     background: linear-gradient(#00ff88, #15ff00);
     min-height: 1024px;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
 }
 
 header a{
@@ -14,13 +17,55 @@ header a:focus{
 
 header{
     background: #00ff88;
-    border: #000 solid 1px;
+    border: #000000 solid 1px;
     text-align: center;
+}
+
+h1{
+    color: #000000;
+    font-family: cookie, sans-serif;
+    font-size: 3.5em;
+    margin: 0;
+    padding: 10px;
 }
 
 nav ul{
     display: flex;
+    background-image: url(../images/bio_background_expanded.jpeg);
+    background-size: cover;
+    background-position: center 30%;
     justify-content: space-evenly;
-    text-decoration: none;
     list-style: none;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: rgb(43, 245, 43);
+    color: #000000;
+    border: #000000 solid 1px;
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+h2{
+    line-height: 2em;
+    font-size: 2em;
+    padding-left: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 45% 40%;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+main img{
+    width: 80%;
+    border: #00ccff groove 10px;
+    padding: 5px;
+    background-color: #b1ffff;
 }
