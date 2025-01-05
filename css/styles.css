@@ -1,3 +1,5 @@
+/* General syle */
+
 body{
     background: linear-gradient(#00ff88, #15ff00);
     min-height: 1024px;
@@ -6,6 +8,8 @@ body{
     font-size: 1.3em;
     text-align: justify;
 }
+
+/* Style Header */
 
 header a{
     position: absolute;
@@ -29,6 +33,8 @@ h1{
     margin: 0;
     padding: 10px;
 }
+
+/* Style Navigation bar */
 
 nav ul{
     display: flex;
@@ -58,10 +64,12 @@ nav a:hover, nav a:focus{
     color: #ffffff;
 }
 
+/* Style Main content */
+
 h2{
-    line-height: 2em;
     font-size: 2em;
-    padding-left: 10px;
+    margin: 9px;
+    margin-bottom: 17px;
 }
 
 main{
@@ -74,6 +82,8 @@ main p{
     padding: 5px;
 }
 
+/* First section as introduction to the topic */
+
 #introduction{
     display: grid;
     grid-template-columns: 49% 43%;
@@ -83,6 +93,12 @@ main p{
 
 #introduction ul{
     list-style: square;
+}
+
+.reference{
+    display: block;
+    text-align: right;
+    margin-bottom: 7px;
 }
 
 #introduction img{
@@ -95,6 +111,8 @@ main p{
     background-color: #b1ffff;
 }
 
+/* Style of the complementary figure */
+
 figure{
     padding: 10px;
     border: #000000 solid 2px;
@@ -105,6 +123,8 @@ figcaption{
     margin: 10px;
 }
 
+/* Secondary information related to the main topic */
+
 h3{
     line-height: 1.7em;
     font-size: 1.7em;
@@ -113,6 +133,8 @@ h3{
     text-align: center; 
     text-decoration: underline;
 }
+
+/* Style for the gallery of the main page */
 
 #gallery{
     margin: 10px;
@@ -131,4 +153,26 @@ h3{
 #gallery figure{
     width: 430px;
     margin: 5px auto;
+}
+
+/* Variation for the informative pages */
+
+#topics{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+    font-size: .9em;
+}
+
+#topics section{
+    border: #000000 solid 2px;
+    padding: 4px;
+}
+
+#topics h3{
+    text-decoration: none;
+    line-height: normal;
+    font-size: 1.2em;
+    margin: 5px;
 }
