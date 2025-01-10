@@ -164,7 +164,7 @@ h3{
     margin: 5px auto;
 }
 
-/* Variation for the informative pages */
+/* Variation for the immune page */
 
 #topics{
     margin-top: 20px;
@@ -180,6 +180,32 @@ h3{
 }
 
 #topics h3{
+    text-decoration: none;
+    line-height: normal;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+/* Variation for the cancer page */
+
+#treatments{
+    margin: 20px;
+}
+
+#cancer{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    font-size: .9em;
+}
+
+#cancer section{
+    border: #000000 solid 2px;
+    padding: 4px;
+}
+
+#cancer h3{
     text-decoration: none;
     line-height: normal;
     font-size: 1.2em;
